@@ -4,5 +4,3 @@
    password: josh
 3. Logo should be displayed in all pages.
    Should the problem arise please email us: abbosali@gwu.edu
-
-Enjoy and happy grading! :-) 
