@@ -1,8 +1,17 @@
-## Welcome to GitHub Pages
+## Desktop Application Development using Python
 
-You can use the [editor on GitHub](https://github.com/abbamir/job-buddy/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Good day! I would like to talk about how I used Python programming language to develop great desktop application. However, before I talk about the development process, I wanted to talk about why Python is a great tool to employ.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Why Python?
+![Image](https://robots.net/wp-content/uploads/2019/11/Lozingle_10032014-600x287.jpg)
+
+Python is a very popular programming language and is used for software development, data analysis and scientific research. However, its popularity doesn't only stem from its widespread applicability but also from its very close affinity to English language. If you are still pondering over why Python should be learned then you can check [Medium](https://medium.com/@mindfiresolutions.usa/python-7-important-reasons-why-you-should-use-python-5801a98a0d0b). 
+
+### Guided User Interface 
+
+![Image](https://files.realpython.com/media/combo-box.442ec954da54.gif)
+
+Python is an Object Oriented Programming (OOP) language and thus efforts are concentrated around objects that represent real world objects. In order to develop desktop application, we should use aframework that can objectify front-end of our application. There are many GUI frameworks for Python but I chose to work on [PyQT](https://riverbankcomputing.com/software/pyqt/intro). 
 
 ### Markdown
 
@@ -27,11 +36,3 @@ Syntax highlighted code block
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/abbamir/job-buddy/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
