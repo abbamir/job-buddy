@@ -1,20 +1,25 @@
 ## Desktop Application Development using Python
 
-Good day! I would like to talk about how I used Python programming language to develop great desktop application. However, before I talk about the development process, I wanted to talk about why Python is a great tool to employ.
+Good day! The purpose of this page is to describe the desktop application and how I developed it. However, it is not a tutorial but a rough overview of what technologies were employed while developing the app.
 
 ### Little bit about Job Buddy
 ![Imgur](https://i.imgur.com/cJa7Wab.png)
 
 As an international student in the US, I realized that it's not easy to land a job in a very competitive market where you have hundreds of companies and millions of applications. As the competition is fierce and candidates compete on hundreds of companies, it is important to have one place where a candidate can store his/her details on applications submitted. The application can then help the application see what company s/he applied and what was the verdict and sort the results by the applied date. 
 
-#### Overall Structure
+#### Structure of Application
 ![Imgur](https://i.imgur.com/1qw9WVO.png)
 
-The picture above presents the overall structure of the Deskop application and how interaction happens among pages. 
+The picture above presents the overall structure of the Deskop application and how interaction happens among pages. Overall, it is pretty standard app as users should sign in or sign up first to get to the Profile Page where they have access to all other pages with respective functions such as
+* Looking for a job using Web scraping 
+* Checking jobs online
+* Adding a new job using input fields
+* Loading list of jobs stored previously 
 
 #### Advanced function -> Web Scraping
 ![Imgur](https://i.imgur.com/LOXDOVx.png)
-Job Buddy also has advanced feature of web scraping that takes Job Position and Location as inputs and returns the results by search on Indeed.com platform. 
+
+Job Buddy also has advanced feature of web scraping that takes Job Position and Location as inputs and returns the results by search on Indeed.com platform. [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) was used to scrape data from Indeed.com and you can find all the code clearly commented in this repo. 
 
 ### Technologies used
 #### 1. Frontend - PyQT
