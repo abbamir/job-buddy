@@ -21,11 +21,23 @@ The picture above presents the overall structure of the Deskop application and h
 
 Job Buddy also has advanced feature of web scraping that takes Job Position and Location as inputs and returns the results by search on Indeed.com platform. [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) was used to scrape data from Indeed.com and you can find all the code clearly commented in this repo. 
 
-### Technologies used
-#### 1. Frontend - PyQT
+### Architecture and Technologies used
+![Imgur](https://i.imgur.com/lRvy2II.png)
+
+The application was developed keeping three-layer architecture presented in the picture above. 
+
+#### 1. User Interface - PyQT
 
 Python is an Object Oriented Programming (OOP) language and thus efforts are concentrated around objects that represent real world objects. In order to develop desktop application, we should use a framework that can objectify front-end of our application. There are many GUI frameworks for Python but I chose to work on [PyQT](https://riverbankcomputing.com/software/pyqt/intro). 
 
-#### 2. Backend - DataFrame
+#### 2. Application Logic - Core Python
 
-As I primarily used Python for Data Analysis, it's no wonder why I used Data Frames to store user details and Job details. 
+OOP and Core Python knowledge was used to connect User Interface to the Database. In this part, all important functions were implemented as responses to signals triggered by User Interface events (e.g. button click). 
+
+#### 3. Database - DataFrame
+
+In most of the cases, information storage is done using SQL or text, but I used Python DataFrames. As I primarily used Python for Data Analysis, it's no wonder why I used Data Frames to store user details and Job details. Pandas is a library responsible for DataFrame and I would encourage you to learn more about it. 
+
+### Thank you
+
+If you reached this stage then I assume you really want to learn more about its technical implementation. Please feel free to download and analyze it, and I hope it will help you in your learning journey. 
